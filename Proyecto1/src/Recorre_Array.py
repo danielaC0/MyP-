@@ -21,7 +21,7 @@ def analizar_arreglo_figuras(contornos, imagen):
         print("No se detectaron figuras en la imagen.")
         return
 
-    print(f"Se encontraron {len(contornos)} figura(s). Analizando...")
+    print(f"Se encontraron {len(contornos)} figura(s). \n Analizando...")
     print("-" * 30)
 
     for i, contorno in enumerate(contornos):
