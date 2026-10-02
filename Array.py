@@ -42,7 +42,9 @@ def analizar_arreglo_figuras(contornos, imagen):
             cX, cY = contorno[0][0]
 
         color_bgr = imagen[cY, cX]
-        blue, green, red = color_bgr[0], color_bgr[1], color_bgr[2]
+        blue = int(color_bgr[0])
+        green = int(color_bgr[1])
+        red = int(color_bgr[2])
 
         hex_color = rgb_a_hexadecimal(red, green, blue)
 
